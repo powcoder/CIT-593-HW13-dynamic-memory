@@ -1,0 +1,15 @@
+{
+    "commands": {
+    "Pre-submission tests": "clear; /home/codio/workspace/makefiletest.sh integration",
+		"Test LC4 Makefile": "clear; /home/codio/workspace/makefiletest.sh lc4"
+    },
+    "preview": {
+		"PennSim Window": "https://{{domain3000}}/",
+        "Virtual Desktop": "https://{{domain3000}}/",
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+    },
+    "autogradeTestScripts": [".guides/secure/autograde.sh",".guides/secure/autograder.py"]
+}

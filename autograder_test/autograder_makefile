@@ -1,0 +1,2 @@
+autograder: 
+	@clang -g autograder.o autograder_helpers.o lc4_memory.o lc4_disassembler.o lc4_loader.o -o autograder
